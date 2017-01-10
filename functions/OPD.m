@@ -19,5 +19,5 @@ if (nargin == 2)
     Phi_n=Phi_n(1:end,1:(Np))';
 end
 
-% Matrix with coefficients
-C = Phi_m*mat*Phi_n'; 
+% Matrix with coefficients             
+C = Phi_m*mat*Phi_n';  
